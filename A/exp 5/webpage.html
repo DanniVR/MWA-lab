@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Design Page</title>
+
+    <style>
+
+        /* 1. Body background image */
+        body {
+            background-image: url("https://www.w3schools.com/css/img_tree.png");
+            background-repeat: no-repeat;   /* no-repeat / repeat / repeat-x / repeat-y */
+            background-position: right top;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 2. Heading style */
+        h1 {
+            color: darkblue;
+            font-size: 28px;
+            text-decoration: underline;
+        }
+
+        /* 3. Paragraph style */
+        p {
+            color: darkgreen;
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        /* 4. Class selector */
+        .headline {
+            color: red;
+            font-size: 22px;
+            font-family: Georgia;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        /* 5. ID selector */
+        #special {
+            color: purple;
+            font-size: 20px;
+            background-color: lightyellow;
+        }
+
+        /* 6. Link styles */
+        a:link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: orange;
+        }
+
+        /* 7. Box styling */
+        .box {
+            width: 300px;
+            padding: 15px;
+            border: 2px solid black;
+            background-color: lightgray;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Styled Web Page</h1>
+
+    <p>This is a normal paragraph styled using element selector.</p>
+
+    <p class="headline">This paragraph uses class selector styling.</p>
+
+    <p id="special">This paragraph uses ID selector styling.</p>
+
+    <div class="box">
+        This is a styled box with border and background color.
+    </div>
+
+    <br><br>
+
+    <a href="#">Click Here to See Link Styles</a>
+
+</body>
+</html>
